@@ -1,7 +1,7 @@
 
 function App() {
   return (
-    <h1>Pagina Principal</h1>
+    <h1>Saúde Laboratorial Dr. Juarez</h1>
   );
 }
 
