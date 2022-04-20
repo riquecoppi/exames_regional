@@ -3,7 +3,7 @@ import './estilos.css';
 
 function Navbar(){
     return(
-        <header>
+    <header>
       <nav className="container">
         <div className="exames-nav-content">
           <h1>Saude Laboratorial Dr. Juarez</h1>
@@ -16,6 +16,7 @@ function Navbar(){
         </div>
       </nav>
     </header>
+      
     );
 }
 
