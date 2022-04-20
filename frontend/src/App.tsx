@@ -1,14 +1,28 @@
-import Lista from "componentes/lista/lista";
-import Navbar from "./componentes/navbar";
 
+
+
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+import Listing from 'paginas/Lista';
+import Form from 'paginas/formulario';
+
+import Navbar from "./componentes/navbar";
 
 function App() {
   return (
-    <>
-     <Navbar />
-     <Lista />
+    <BrowserRouter>
+      <Navbar />
 
-    </>
+      <Routes>
+        <Route path="/" element={<Listing />} />
+        <Route path="/form">
+          <Route path=":movieId" element={<Form />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
