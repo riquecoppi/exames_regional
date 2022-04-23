@@ -19,10 +19,10 @@ function Lista() {
                <table>
                   
                    <tr>
-                       <td> <a href="A" id='A' onClick={(e) => handleCapturaEventoA('A') }>A</a></td>
-                       <td> <a href="B" id='B' onClick={(e) => handleCapturaEventoA('B') }>B</a></td>
-                       <td> <a href="C" id='C' onClick={(e) => handleCapturaEventoA('C') }>C</a></td>
-                       <td> <a href="D" id='D' onClick={(e) => handleCapturaEventoA('D') }>D</a></td>
+                       <td> <a href="http://localhost:3000/form/A" id='A' onClick={(e) => handleCapturaEventoA('A') }>A</a></td>
+                       <td> <a href="http://localhost:3000/form/B" id='B' onClick={(e) => handleCapturaEventoA('B') }>B</a></td>
+                       <td> <a href="http://localhost:3000/form/C" id='C' onClick={(e) => handleCapturaEventoA('C') }>C</a></td>
+                       <td> <a href="http://localhost:3000/form/D" id='D' onClick={(e) => handleCapturaEventoA('D') }>D</a></td>
                        <td> <a href="E" id='E' onClick={(e) => handleCapturaEventoA('E') }>E</a></td>
                        <td> <a href="F" id='F' onClick={(e) => handleCapturaEventoA('F') }>F</a></td>
                        <td> <a href="G" id='G' onClick={(e) => handleCapturaEventoA('G') }>G</a></td>

@@ -6,8 +6,10 @@ function Navbar(){
     <header>
       <nav className="container">
         <div className="exames-nav-content">
-          <h1>Saude Laboratorial Dr. Juarez</h1>
-          <a href="http://www.laboratorioregional.com.br/">
+           <a href="http://localhost:3000/">
+             <h1>Saude Laboratorial Dr. Juarez</h1>
+           </a> 
+             <a href="http://www.laboratorioregional.com.br/">
              <div>
                <Logoregional />
                <p className="exames-nav-chavao">A mais de 50 anos cuidando de você!</p>
