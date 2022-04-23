@@ -1,8 +1,4 @@
-import Paginacao from 'componentes/paginacao';
-import './estilo.css';
-function formulario () {
-
-
+function Alfabeto (){
 
     const handleCapturaEventoA = (id: string) => {
      
@@ -10,7 +6,7 @@ function formulario () {
     }
 
     return(
-            <div className="exame-body-superior">
+        <div className="exame-body-superior">
             <div className='lista-alfabeto'>
                  
             <p>
@@ -61,16 +57,14 @@ function formulario () {
                     
                 </a>  
                   
-                  <Paginacao />
+                 
                
             </div> 
 
          
          
          </div>
-
-         
     );
 }
 
-export default formulario;
+export default Alfabeto;
