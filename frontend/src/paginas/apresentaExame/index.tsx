@@ -1,9 +1,7 @@
-import Paginacao from 'componentes/paginacao';
-import './estilo.css';
-function formulario () {
+import ExameCard from "componentes/ExameCard";
 
 
-
+function ApresentaExame (){
     const handleCapturaEventoA = (id: string) => {
      
       
@@ -56,12 +54,9 @@ function formulario () {
            
            </p>
          </div>
-                <a href="http://localhost:3000/form/apresenta/3">
-                  <h1>Lista Por Letra</h1> 
-                    
-                </a>  
+                  <ExameCard /> 
                   
-                  <Paginacao />
+                
                
             </div> 
 
@@ -73,4 +68,4 @@ function formulario () {
     );
 }
 
-export default formulario;
+export default ApresentaExame;
