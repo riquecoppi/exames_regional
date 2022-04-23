@@ -1,12 +1,8 @@
+import Paginacao from 'componentes/paginacao';
 import './estilo.css';
 function formulario () {
 
-    const exame = {
-        id: 1,
-        nomeExame: "Hemograma",
-        coleta: "A coleta é realizada atraves do X procedimento.",
-        interpretacao: "O exame revela tais e tais condições de saude do paciente."
-    };
+
 
     const handleCapturaEventoA = (id: string) => {
      
@@ -60,19 +56,13 @@ function formulario () {
            
            </p>
          </div>
-              
+                  <h1>Lista Por Letra</h1> 
+                  
+                  <Paginacao />
                
             </div> 
 
-         <div className="container">
-             <div className="exame-form-nome">
-               <h1>{exame.nomeExame}</h1>
-             </div>
-         <h2>Coleta</h2>
-         <p>{exame.coleta}</p>
-         <h2>Interpretação</h2>
-         <p>{exame.interpretacao}</p>
-         </div>
+         
          
          </div>
 

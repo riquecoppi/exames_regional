@@ -1,3 +1,4 @@
+
 import Paginacao from 'componentes/paginacao';
 import './estilo.css';
 
@@ -57,8 +58,10 @@ function Lista() {
            
            </p>
          </div>
+                  <h1>Lista Todos</h1> 
+                  
                   <Paginacao />
-               <h1>Lista</h1>
+               
             </div> 
             
          </div>             
