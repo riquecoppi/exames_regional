@@ -1,36 +1,31 @@
-package com.coppisoftware.exames.entities;
+package com.coppisoftware.exames.dto;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import com.coppisoftware.exames.entities.exame;
 
-@Entity
-@Table(name = "exame")
-public class exame {
+public class ExameDTO {
+
 	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id_exame;
-	@Column(name="nome", length = 1000)
 	private String nome;
-	@Column(name="coleta", length = 10000)
 	private String coleta;
-	@Column(name="interpretacao", length = 50000)
 	private String interpretacao;
 	
-	public exame() {
+	public ExameDTO() {
 		
 	}
 
-	public exame(Integer id_exame, String nome, String coleta, String interpretacao) {
-	
+	public ExameDTO(Integer id_exame, String nome, String coleta, String interpretacao) {
 		this.id_exame = id_exame;
 		this.nome = nome;
 		this.coleta = coleta;
 		this.interpretacao = interpretacao;
+	}
+	
+	public ExameDTO(exame exame) {
+	    id_exame = exame.getId_exame();
+		nome = exame.getNome();
+		coleta = exame.getColeta();
+		interpretacao = exame.getInterpretacao();
 	}
 
 	public Integer getId_exame() {
@@ -66,7 +61,4 @@ public class exame {
 	}
 	
 	
-	
-	
-
 }
