@@ -1,27 +1,37 @@
 
 import './estilo.css';
-function ExameCard() {
+import { Exame } from '../../tipos/exame';
 
 
-    const exame = {
-        id: 1,
-        nomeExame: "Hemograma CARD",
-        coleta: "A coleta é realizada atraves do X procedimento.",
-        interpretacao: "O exame revela tais e tais condições de saude do paciente."
-    };
+type Props ={
+    exame: Exame;
+}
+
+
+function ExameCard ( { exame } : Props ) {
+   
+    
+
+    
     
     return(
-        <div className="container">
-             <div className="exame-form-nome">
-               <h1>{exame.nomeExame}</h1>
-             </div>
-         <h2>Coleta</h2>
-         <p>{exame.coleta}</p>
-         <h2>Interpretação</h2>
-         <p>{exame.interpretacao}</p>
-         </div>
-    );
+        
+         <div>
+            
+                <div className="default-exame">
+                    
+                   <h3><a href="w">{exame.nome}</a></h3>
+                   <div className='linha-exame'></div>
+                </div>
 
+                 
+              
+         </div>
+               
+        
+        
+        
+    )
 }
 
 export default ExameCard;
