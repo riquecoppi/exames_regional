@@ -1,6 +1,5 @@
 
 import axios from 'axios';
-import Alfabeto from 'componentes/alfabeto';
 import Paginacao from 'componentes/paginacao';
 import { useEffect, useState, MouseEvent } from 'react';
 import { BASE_URL } from 'utilitarios/requests';
@@ -11,7 +10,7 @@ import ExameCard from 'componentes/ExameCard';
 function Lista() {
 
         const [pageNumber, setPageNumber] = useState(0);
-        const [letter, setLetter] = useState('');
+        const [letter, setLetter] = useState('A');
     
         const [page, setPage] = useState<ExamePage>({ //----><ExamePage> - informando para o typeScript que o tipo do 
             content: [],                                               //- estado é ExamePage(types)

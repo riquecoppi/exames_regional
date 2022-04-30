@@ -1,6 +1,7 @@
 
 import './estilo.css';
 import { Exame } from '../../tipos/exame';
+import { Link } from 'react-router-dom';
 
 
 type Props ={
@@ -17,14 +18,13 @@ function ExameCard ( { exame } : Props ) {
     return(
         
          <div>
-            
-                <div className="default-exame">
+                 <Link to={`/form/${exame.id_exame}`}>
+                 <div className="default-exame">
                     
-                   <h3><a href="w">{exame.nome}</a></h3>
-                   <div className='linha-exame'></div>
-                </div>
-
-                 
+                    <h3>{exame.nome}</h3>
+                    <div className='linha-exame'></div>
+                 </div>       
+                 </Link>    
               
          </div>
                
