@@ -1,4 +1,4 @@
-import ExameCard from "componentes/ExameCard";
+
 
 
 function ApresentaExame (){

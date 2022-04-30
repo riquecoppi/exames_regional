@@ -52,9 +52,9 @@ function Lista() {
 
     return (
 
-        <div className="retangulo-lista">
+        <div className="container">
            
-        <h1>Exames</h1>
+       
         <div className='lista-linha'>
         </div>
         <div className='lista-alfabeto'>

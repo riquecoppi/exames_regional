@@ -25,7 +25,9 @@ function FormCard ( {exameId} : Props ) {
         <div> 
             <div className="container">
                 <h3>{exame?.nome}</h3>
+                <h2>Coleta</h2>
                 <h4>{exame?.coleta}</h4>
+                <h2>Interpretação</h2>
                 <h4>{exame?.interpretacao}</h4>        
             </div> 
 
