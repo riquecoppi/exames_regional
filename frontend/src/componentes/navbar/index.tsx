@@ -6,11 +6,11 @@ function Navbar(){
     <header>
       <nav className="container">
         <div className="exames-nav-content">
-           <a href="http://localhost:3000/">
+           
              <h1>Saude Laboratorial Dr. Juarez</h1>
-           </a> 
-             <a href="http://www.laboratorioregional.com.br/">
-             <div>
+            
+             <a href="http://www.labjuarez.com.br">
+             <div className='container'>
                <Logoregional />
                <p className="exames-nav-chavao">A mais de 50 anos cuidando de você!</p>
              </div>
