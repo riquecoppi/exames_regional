@@ -10,7 +10,7 @@ function Navbar(){
              <h1>Saude Laboratorial Dr. Juarez</h1>
             
              <a href="http://www.labjuarez.com.br">
-             <div className='container'>
+             <div className="exames-nav-content-logo">
                <Logoregional />
                
              </div>

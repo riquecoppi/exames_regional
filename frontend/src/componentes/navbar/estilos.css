@@ -1,16 +1,14 @@
 .exames-nav-content{
     background-color: var(--color-primary);
-   
-    
-    height: 150px;  
-    align-items: center;
     color: #fff;
+    
 }
 
 .exames-nav-content h1 {
     margin: 0px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
+    text-align: center;
     
      
 }
@@ -19,4 +17,7 @@
    
     font-family: monospace;
     
+}
+.exames-nav-content{
+    text-align: center;
 }
