@@ -12,7 +12,7 @@ function Navbar(){
              <a href="http://www.labjuarez.com.br">
              <div className='container'>
                <Logoregional />
-               <p className="exames-nav-chavao">A mais de 50 anos cuidando de você!</p>
+               
              </div>
           </a>
         </div>
