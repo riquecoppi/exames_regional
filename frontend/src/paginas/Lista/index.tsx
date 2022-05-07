@@ -50,6 +50,10 @@ function Lista() {
         }
 
 
+        const handlePageChange = (newPageNumber : number) => {
+            setPageNumber(newPageNumber);
+        }
+
     return (
 
         <div className="container">
@@ -103,7 +107,7 @@ function Lista() {
              
          ))}
 
-        <Paginacao />
+        <Paginacao page={page} onChange={handlePageChange}/>
     </div>
     );
 }
