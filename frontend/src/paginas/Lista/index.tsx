@@ -33,13 +33,12 @@ function Lista() {
                 response => {
                     const data = response.data as ExamePage; //a constante 'data' recebendo o response.data
                     setPage(data);
-                    setPageNumber(0);
+                    
                 }
             )
         }, [letter ,pageNumber])
        
         
-       //setPageNumber(0);
         
     
         
